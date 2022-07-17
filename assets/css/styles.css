@@ -5,7 +5,7 @@
     background-color:rgb(71, 93, 93); 
   }
   
-  
+  /* Name on the page (header) */
   header {
     height: 100px;
     width: 100%;
@@ -16,34 +16,48 @@
     background-color:beige;
     color:beige;
   }
-    
+    /*links to navagate page */
   li{
     text-align: right;
     display: inline;
    }
-
+   /*about me section */
+   
    h2 {
     
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
     color: #ffffff;}
+    
+    /* work */
+    
     h3 {
       
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      
       color: #ffffff;}
-    h4 {
+    /* resume */
+      h4 {
       
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
        
         color: #ffffff;}
-    h5 {
+   /* contact */
+        h5 {
       
           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
          
           color: #ffffff;}
-        
-      
+    
+          /*cover phone*/
+    .hero {
+            height: 800px;
+            width: 100%;
+            margin-bottom: 25px;
+            background-image: "./assets/images.img/computer.jpeg"
+            background-size: cover;
+            background-position: center;
+        }
     
 
    
