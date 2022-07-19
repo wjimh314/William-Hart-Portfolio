@@ -62,7 +62,7 @@
       
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       color: #0d0d0d;
-      font-size:40px;
+      font-size:50px;
       border-bottom: 5px solid rgb(102, 123, 144);
     }
     /* resume */
@@ -72,24 +72,22 @@
        
         color:}
    /* contact */
-        h5 {
-      
-          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-          color: #0d0d0d;
+        h5 {text-align: center;
           font-size:40px;
-          border-bottom: 20px solid rgb(148 153 158);
-          width: 100%;
-          height:100%
-
-            margin-bottom: 25px;
-            background-image: "./assets/images.img/computer.jpeg"
-            background-size: cover;
-            background-position: center;
+        
         }
-    
+    .contact {
+      text-align:center;
+      position: relative;
+      bottom: -100px;
+      background-color:rgb(148 153 158);
+      font-size:xx-large;
+      text-decoration: underline;
+    }
     body {
       margin: 0;
       font-family: Arial;
+      
     }
     
     .header {
@@ -98,7 +96,7 @@
     }
     
   .image-grid {
-    --gap:5px;
+    --gap:16px;
     --num-cols:2;
     --row-height:200px;
     box-sizing:boarder-box;
@@ -110,7 +108,30 @@
     background-color:rgb(102, 123, 144);
   }
 
+  .text-block{
+    position:absolute;
+    bottom:200px;
+    right:0px;
+    left:800px
+    background-color:rgb(102, 123, 144);
+    color:black;
+    padding-left: 0px;
+    padding-right:0px;
+    color:white;
+    font-size:45px
+
   }
+  .text-block{
+    position:absolute;
+    bottom:100px;
+    right:1px;
+    left:-auto
+    background-color:rgb(102, 123, 144);
+    color:black;
+    padding-left: 0px;
+    padding-right:0px;
+    color:white;
+    font-size:45px}
 
   .image-grid> img{
     width: 100%;
@@ -122,5 +143,7 @@
     .image-grid { 
       --num-cols:1;
       --row-height: 200px;
+      flex-direction: column;
     }
   }
+  
