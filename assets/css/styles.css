@@ -24,7 +24,8 @@
       font-size:40px;
     
     }
-  li{
+  /*contact info lis*/
+    li{
     padding-left: 2em;
     display: flex;
     justify-content: right;
@@ -94,7 +95,7 @@
       text-align: center;
       padding: 32px;
     }
-    
+    /*used to split images into grid*/
   .image-grid {
     --gap:16px;
     --num-cols:2;
@@ -138,7 +139,7 @@
     height:100%;
     object-fit:cover;
   }
-
+/*makes screen responsive*/
   @media screen and (max-width: 1024px) {
     .image-grid { 
       --num-cols:1;
